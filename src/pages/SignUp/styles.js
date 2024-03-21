@@ -14,22 +14,18 @@ export const Form = styled.form`
   justify-content: center;
   align-items: center;
   text-align: center;
-
   > h1 {
     font-size: 48px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
-
   > h2 {
     font-size: 24px;
     margin: 48px 0;
   }
-
   > p {
     font-size: 14px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
-
   > a {
     margin-top: 124px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
